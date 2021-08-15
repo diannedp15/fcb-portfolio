@@ -1,0 +1,71 @@
+/*
+	ctrl+shift+/ to create CSS comment.
+
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+
+* { 
+	/*Default Font*/
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 { /*TARGETS H1 AND H2 ELEMENTS*/
+
+		font-family: "Montserrat", sans-serif;
+
+}
+
+img { /*TARGETS IMG ELEMENT ONLY*/
+
+	height: 250px;
+	width: 	250px;
+
+}
+
+#landing { /*TARGETS LANDING ELEMENTS ONLY*/
+
+	height: 80vh;
+	/*center the content, (image, heading and paragraph) horizontally and vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery { /*TARGETS GALLERY ELEMENTS; USES POUND BC ITS ID*/
+
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	height: 75vh;
+	color: white;
+	border-radius: 6px;
+}
+
+ul { /*TARGETS UL ELEMENTS ONLY*/
+
+	list-style: none;
+	padding: 0;
+}
+
+h2 { /*TARGETS H2 ELEMENTS ONLY*/
+
+	color:  #007bff;
+}
+
+.tools { /*TARGETS TOOLS CLASS, USE PERIOD"." WHEN CLASS; USE POUND "#" WHEN ID*/
+	padding: 25px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	height: 200px;
+	width: 75%;
+}
+
+html { /*TARGETS THE ENTIRE PAGE*/
+
+	scroll-behavior: smooth;
+}
